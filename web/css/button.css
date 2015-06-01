@@ -1,0 +1,277 @@
+body{
+    background: #c7b39b;
+    
+    
+}
+.button {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 1px solid #00a06d;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal medium/normal Arial, Helvetica, sans-serif;
+  color: rgba(255,255,255,0.9);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #00a06d;
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+  text-shadow: -1px -1px 0 rgba(15,73,168,0.66) ;
+  -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.button:hover {
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.3) ;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.3) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.button:active {
+  color: rgba(255,255,255,1);
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: none;
+  -webkit-transition: all 50ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 50ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 50ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 50ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+
+a { 
+    text-decoration: none; 
+    color: white;
+   }
+   a:hover { 
+       color: white;
+    text-decoration: none; 
+   }
+   a:active { 
+       color: white;
+    text-decoration: none;
+   }
+   
+   
+   
+   .enjoy-css2 {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  margin: 30px 0 0;
+  padding: 0 60px;
+  border: 1px solid #0f9b0f;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal 20px/50px "Questrial", Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-linear-gradient(-90deg, rgba(238,225,239,1) 0, rgba(145,53,107,1) 100%);
+  background: -moz-linear-gradient(180deg, rgba(238,225,239,1) 0, rgba(145,53,107,1) 100%);
+  background: linear-gradient(180deg, rgba(238,225,239,1) 0, rgba(145,53,107,1) 100%);
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 0 2px 1px 0 rgba(0,0,0,0.3) ;
+  box-shadow: 0 2px 1px 0 rgba(0,0,0,0.3) ;
+}
+
+.enjoy-css2:hover {
+  background: -webkit-linear-gradient(-90deg, rgba(232,225,237,1) 0, rgba(97,52,142,1) 100%);
+  background: -moz-linear-gradient(180deg, rgba(232,225,237,1) 0, rgba(97,52,142,1) 100%);
+  background: linear-gradient(180deg, rgba(232,225,237,1) 0, rgba(97,52,142,1) 100%);
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.11) ;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.11) ;
+  -webkit-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.enjoy-css2:active {
+  border: 1px solid rgba(180,180,180,0.2);
+  background: -webkit-linear-gradient(-90deg, rgba(238,225,239,1) 0, rgba(86,4,52,1) 100%);
+  background: -moz-linear-gradient(180deg, rgba(238,225,239,1) 0, rgba(86,4,52,1) 100%);
+  background: linear-gradient(180deg, rgba(238,225,239,1) 0, rgba(86,4,52,1) 100%);
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 0 3px 0 0 rgba(0,0,0,0.1) inset;
+  box-shadow: 0 3px 0 0 rgba(0,0,0,0.1) inset;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+   
+
+
+
+
+
+
+
+.button-fiol {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  margin: 30px 0 0;
+  padding: 0 60px;
+  border: 1px solid #0f9b0f;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  font: normal 20px/40px "Questrial", Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-linear-gradient(-90deg, rgba(238,225,239,1) 0, rgba(145,53,107,1) 100%);
+  background: -moz-linear-gradient(180deg, rgba(238,225,239,1) 0, rgba(145,53,107,1) 100%);
+  background: linear-gradient(180deg, rgba(238,225,239,1) 0, rgba(145,53,107,1) 100%);
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 0 2px 1px 0 rgba(0,0,0,0.3) ;
+  box-shadow: 0 2px 1px 0 rgba(0,0,0,0.3) ;
+}
+
+.button-fiol:hover {
+  background: -webkit-linear-gradient(-90deg, rgba(232,225,237,1) 0, rgba(97,52,142,1) 100%);
+  background: -moz-linear-gradient(180deg, rgba(232,225,237,1) 0, rgba(97,52,142,1) 100%);
+  background: linear-gradient(180deg, rgba(232,225,237,1) 0, rgba(97,52,142,1) 100%);
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.11) ;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.11) ;
+  -webkit-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.button-fiol:active {
+  border: 1px solid rgba(180,180,180,0.2);
+  background: -webkit-linear-gradient(-90deg, rgba(238,225,239,1) 0, rgba(86,4,52,1) 100%);
+  background: -moz-linear-gradient(180deg, rgba(238,225,239,1) 0, rgba(86,4,52,1) 100%);
+  background: linear-gradient(180deg, rgba(238,225,239,1) 0, rgba(86,4,52,1) 100%);
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 0 3px 0 0 rgba(0,0,0,0.1) inset;
+  box-shadow: 0 3px 0 0 rgba(0,0,0,0.1) inset;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+
+
+
+   
+   
+   
+.feedback-button {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+  opacity: 0.72;
+  padding: 10px;
+  overflow: hidden;
+  border: none;
+  -webkit-border-radius: 14px;
+  border-radius: 14px;
+  font: normal normal bold 1.6em/normal "Syncopate", Helvetica, sans-serif;
+  color: #ecf0f1;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-linear-gradient(0deg, rgba(252,205,77,1) 0, rgba(252,205,77,1) 14%, rgba(248,181,0,1) 43%, rgba(229,222,204,1) 96%, rgba(251,223,147,1) 100%);
+  background: -moz-linear-gradient(90deg, rgba(252,205,77,1) 0, rgba(252,205,77,1) 14%, rgba(248,181,0,1) 43%, rgba(229,222,204,1) 96%, rgba(251,223,147,1) 100%);
+  background: linear-gradient(90deg, rgba(252,205,77,1) 0, rgba(252,205,77,1) 14%, rgba(248,181,0,1) 43%, rgba(229,222,204,1) 96%, rgba(251,223,147,1) 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 2px 6px 0 0 rgba(242,98,70,1) ;
+  box-shadow: 2px 6px 0 0 rgba(242,98,70,1) ;
+  text-shadow: 4px 4px 6px rgba(255,0,0,1) ;
+  -webkit-transform: rotateX(-20.05352282957881deg) rotateY(-2.291831180523293deg)   ;
+  transform: rotateX(-20.05352282957881deg) rotateY(-2.291831180523293deg)   ;
+}
+
+.feedback-button:hover {
+  opacity: 0.88;
+  margin: 0 2% 0 0;
+  padding: 12px 10px;
+  background: -webkit-linear-gradient(0deg, rgba(252,234,187,1) 0, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+  background: -moz-linear-gradient(90deg, rgba(252,234,187,1) 0, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+  background: linear-gradient(90deg, rgba(252,234,187,1) 0, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 3px 5px 0 0 rgba(247,103,103,1) ;
+  box-shadow: 3px 5px 0 0 rgba(247,103,103,1) ;
+  text-shadow: 5px 4px 6px rgba(255,0,0,1) ;
+  -webkit-transform: rotateX(-23deg) rotateY(-3deg)   ;
+  transform: rotateX(-23deg) rotateY(-3deg)   ;
+}
+
+.feedback-button:active {
+  top: 5px;
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 2px 5px 0 0 rgba(242,79,79,1) ;
+  box-shadow: 2px 5px 0 0 rgba(242,79,79,1) ;
+  text-shadow: 2px 4px 6px rgba(255,0,0,1) ;
+  -webkit-transform: rotateX(-20deg) rotateY(-2deg)   ;
+  transform: rotateX(-20deg) rotateY(-2deg)   ;
+}

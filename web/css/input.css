@@ -1,0 +1,223 @@
+.long-shadow { // текс красный
+               display: inline-block;
+               -webkit-box-sizing: content-box;
+               -moz-box-sizing: content-box;
+               box-sizing: content-box;
+               border: none;
+               font: normal 22px/1 "Fredoka One", Helvetica, sans-serif;
+               color: rgba(206,43,43,1);
+               -o-text-overflow: clip;
+               text-overflow: clip;
+               text-shadow: 1px -1px 0 #a58c94 ;
+}
+
+h1 {
+    text-align: center;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    font: normal 36px/1 "Fredoka One", Helvetica, sans-serif;
+    color: red;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    font-weight: 100;
+}
+
+h3 {
+    
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    font: normal 24px/1 "Fredoka One", Helvetica, sans-serif;
+    color: rgba(250,3,63,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    font-weight: 100;
+}
+
+h4 {
+    
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    font: normal 18px/1 "Fredoka One", Helvetica, sans-serif;
+    color: rgba(250,3,63,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    font-weight: 200;
+}
+
+
+.text {
+    font: normal 22px/1 "Fredoka One", Helvetica, sans-serif;
+    color: orangered;
+    font-weight: 800;
+
+}
+.text-small {
+    font: normal 16px/1 "Fredoka One", Helvetica, sans-serif;
+    color: orangered;
+    font-weight: 600;
+
+}
+
+.text-right-my{
+    font: normal 22px/1 "Fredoka One", Helvetica, sans-serif;
+    color: orangered;
+    font-weight: 800;
+    text-align: right;
+}
+
+
+
+
+.enjoy-css {  // выпадающий список   белый
+
+              display: inline-block;
+              -webkit-box-sizing: content-box;
+              -moz-box-sizing: content-box;
+              box-sizing: content-box;
+              padding: 10px 25px;
+              border: none;
+              -webkit-border-radius: 32px / 54px;
+              border-radius: 32px / 54px;
+              font: normal 18px/normal "Coda", Helvetica, sans-serif;
+              color: rgba(0,142,198,1);
+              -o-text-overflow: ellipsis;
+              text-overflow: ellipsis;
+              background: rgba(252,252,252,1);
+              -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2) inset;
+              box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2) inset;
+              text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+              -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+              -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+              -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+              transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.enjoy-css:hover {
+    background: rgba(232,249,255,1);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(90,90,90,0.2) inset;
+    box-shadow: 0 2px 2px 0 rgba(90,90,90,0.2) inset;
+}
+
+.enjoy-css:focus {
+    background: rgba(255,253,232,1);
+}
+
+
+
+.enjoy-white {  // поля ввода,  белые
+              
+              display: inline-block;
+              -webkit-box-sizing: content-box;
+              -moz-box-sizing: content-box;
+              box-sizing: content-box;
+              padding: 15px 5px;
+              border: none;
+              -webkit-border-radius: 6px / 8px;
+              border-radius: 6px / 8px;
+              font: normal 18px/normal "Coda", Helvetica, sans-serif;
+              color: rgba(0,142,198,1);
+              -o-text-overflow: ellipsis;
+              text-overflow: ellipsis;
+              background: rgba(252,252,252,1);
+              -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2) inset;
+              box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2) inset;
+              text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+              -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+              -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+              -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+              transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+              width: 330px;
+}
+
+.enjoy-white:hover {
+    background: rgba(232,249,255,1);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(90,90,90,0.2) inset;
+    box-shadow: 0 2px 2px 0 rgba(90,90,90,0.2) inset;
+}
+
+.enjoy-white:focus {
+    background: rgba(255,253,232,1);
+}
+
+.border{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color:  rgba(0,0,0,0.3);
+}
+
+
+
+.input {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 450px;
+    height: 42px;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0 20px;
+    overflow: hidden;
+    border: none;
+    -webkit-border-radius: 21px;
+    border-radius: 21px;
+    font: normal 20px/normal "Antic", Helvetica, sans-serif;
+    color: rgba(58,232,23,1);
+    text-decoration: coral;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.5) inset;
+    box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.5) inset;
+    -webkit-transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+    -moz-transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+    -o-transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+    transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+}
+
+.input:hover {
+    //color: rgba(40,226,15,1);
+    background: rgba(0,0,0,0.73);
+    -webkit-transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+    -moz-transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+    -o-transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+    transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+}
+
+.input:focus {
+    width: 455px;
+    cursor: default;
+    padding: -14px 24px 0 20px;
+    color: rgba(255,255,255,1);
+    background: rgba(0,0,0,0.82);
+    -webkit-transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+    -moz-transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+    -o-transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+    transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+}
+
+table {
+    background-color:  rgba(0,0,0,0.6);
+}
+.table-30{
+    background-color:  rgba(0,0,0,0.3);
+    
+}
+
+table2 {
+    
+    background-color:  rgba(0,0,0,0.6);
+    width: 100%;
+}

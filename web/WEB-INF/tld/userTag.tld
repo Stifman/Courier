@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib version="3.1"  
+    xmlns="http://java.sun.com/xml/ns/javaee"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"> 
+
+    <tlib-version>1.0</tlib-version> 
+    <short-name>ct</short-name>
+    <uri>customtags</uri> 
+
+    <tag>  
+        <name>myTag</name> 
+        <tag-class>by.bsuir.tag.MyTag</tag-class>  
+        <body-content>scriptless</body-content> 
+    </tag>
+     
+</taglib> 
